@@ -1,6 +1,9 @@
 node_modules/
 platforms/
 plugins/
+www/lib/
+www/themes/images/
+www/themes/jquery.mobile.icons.min.css
 *.swp
 *.swo
 *.log
