@@ -14,19 +14,40 @@
 		<script type="text/javascript">
 			$(document).on('mobileinit', function(){
 				$.mobile.defautlLoadErrorMessage = "متاسفانه خطایی رخ داده است!";
+				$.mobile.defaultPageTransition = "pop";
 			});
 		</script>
 		<script src="lib/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("[data-role=header],[data-role=footer]").toolbar();
+			});
+		</script>
 		<meta name="viewport" content="width=device-width">
 	</head>
 	<body>
-		<header data-role="header" data-fullscreen="false" data-position="fixed">
+		<header data-role="header" data-position="fixed">
 			<h1>مادر خرج</h1>
-			<a href="#index" class="ui-nodisk-icon ui-btn ui-btn-icon-notext ui-icon-home ui-alt-icon ui-btn-inline ui-shadow"></a>
-			<a href="#menu" class="ui-nodisk-icon ui-btn ui-btn-icon-notext ui-icon-bars ui-alt-icon ui-btn-inline ui-shadow"></a>
+			<a href="#index" class="ui-btn ui-btn-icon-notext ui-icon-home ui-btn-inline ui-shadow head-btn"></a>
+			<a href="#menu" class="ui-btn ui-btn-icon-notext ui-icon-bars ui-btn-inline ui-shadow head-btn"></a>
 		</header>
-		<footer data-role="footer" data-fullscreen="false">
+		<footer data-role="footer" data-position="fixed">
 			<h1><a href="http://mwxgaf.ir" data-role="none">MWX</a> | 2021</h1>
 		</footer>
+		<section id="index" data-role="page">
+			<div class="ui-content" data-role="main">
+				<a class="ui-btn green" href="#new">خرج جدید</a>
+			</div>
+		</section>
+		<section id="menu">
+			<div class="ui-content" data-role="main">
+				Menu ...
+			</div>
+		</section>
+		<section id="new">
+			<div class="ui-content" data-role="main">
+				New cost registeration page ...
+			</div>
+		</section>
 	</body>
 </html>
