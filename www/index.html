@@ -4,14 +4,29 @@
 
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width">
+		<meta charset="utf-8">
+		<title>مادر خرج</title>
 		<link rel="stylesheet" href="themes/madarkharj.min.css">
 		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
-		<link rel="stylesheet" href="jquery.mobile.structure-1.4.5.min.css">
+		<link rel="stylesheet" href="lib/jquery.mobile.structure-1.4.5.min.css">
+		<link rel="stylesheet" href="style.css">
 		<script src="lib/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).on('mobileinit', function(){
+				$.mobile.defautlLoadErrorMessage = "متاسفانه خطایی رخ داده است!";
+			});
+		</script>
 		<script src="lib/jquery.mobile-1.4.5.min.js"></script>
+		<meta name="viewport" content="width=device-width">
 	</head>
 	<body>
-		In the name of Allah ...
+		<header data-role="header" data-fullscreen="false" data-position="fixed">
+			<h1>مادر خرج</h1>
+			<a href="#index" class="ui-nodisk-icon ui-btn ui-btn-icon-notext ui-icon-home ui-alt-icon ui-btn-inline ui-shadow"></a>
+			<a href="#menu" class="ui-nodisk-icon ui-btn ui-btn-icon-notext ui-icon-bars ui-alt-icon ui-btn-inline ui-shadow"></a>
+		</header>
+		<footer data-role="footer" data-fullscreen="false">
+			<h1><a href="http://mwxgaf.ir" data-role="none">MWX</a> | 2021</h1>
+		</footer>
 	</body>
 </html>

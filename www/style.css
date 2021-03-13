@@ -1,0 +1,12 @@
+/* In the name of Allah */
+
+@font-face {
+	font-family: 'vazir';
+	src: url('lib/Vazir.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	font-family: 'vazir';
+}
