@@ -26,3 +26,19 @@ html {
 .green {
 	background-color: #28a745 !important;
 }
+
+.red {
+	background-color: #dc3545 !important;
+}
+
+.yellow {
+	background-color: #ffc107 !important;
+}
+
+.blue {
+	background-color: #007bff !important;
+}
+
+.cyan {
+	background-color: #17a2b8 !important;
+}
