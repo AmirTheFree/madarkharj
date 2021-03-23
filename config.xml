@@ -2,7 +2,7 @@
 <widget id="ir.mwx.madarkharj" version="0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>MadarKharj</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A mobile application for justly calculation of group expends
     </description>
     <author email="i@mwxg.ir" href="http://i.mwxg.ir">
         MWX - Amirreza Aliakbari

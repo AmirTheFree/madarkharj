@@ -1,9 +1,7 @@
 // In the name of Allah
 
 $(function(){
-	$("[data-role=header],[data-role=footer]").toolbar();
-
-	function refreshData(){
+    function refreshData(){
 		var storage = window.localStorage;
 		var data = storage.getItem('data');
 		if (data === null || data === "{}"){
@@ -15,8 +13,10 @@ $(function(){
 			}
 		}
 	}
-
-	$(document).on('pagebeforecreate',refreshData);
-	$(document).on('pagecontainerbeforeshow',refreshData);
-
+    $(document).on('mobileinit', function(){
+        $.mobile.defautlLoadErrorMessage = "متاسفانه خطایی رخ داده است!";
+        $.mobile.defaultPageTransition = "pop";
+        refreshData();
+    });
+    $(document).on('pagecontainerbeforeshow',refreshData);
 });
