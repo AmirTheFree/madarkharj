@@ -9,6 +9,7 @@
 
 html {
 	font-family: 'vazir';
+	direction: rtl;
 }
 
 .ui-header , .ui-footer {
@@ -41,4 +42,9 @@ html {
 
 .cyan {
 	background-color: #17a2b8 !important;
+}
+
+input[name=name] {
+	text-align: right;
+	font-family: 'vazir';
 }

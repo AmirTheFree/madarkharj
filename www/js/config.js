@@ -5,12 +5,15 @@ $(function(){
 		var storage = window.localStorage;
 		var data = storage.getItem('data');
 		if (data === null || data === "{}"){
+			data = '{}';
+			storage.setItem('data',data);
 			$('#data>center').html('<br><br>ابتدا از گزینه ها عضوی به گروه اضافه کنید');
 		} else {
-			data = JSON.parse(data);
-			for (var key of Object.keys(data)){
-				// key is name & data[key] is money ...
-			}
+			$('#data>center').html('<br><br>' + data);
+			// data = JSON.parse(data);
+			// for (var key of Object.keys(data)){
+			// 	// key is name & data[key] is money ...
+			// }
 		}
 	}
     $(document).on('mobileinit', function(){
