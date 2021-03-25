@@ -44,7 +44,19 @@ html {
 	background-color: #17a2b8 !important;
 }
 
-input[name=name] {
-	text-align: right;
+input , .chcklbl{
+	text-align: right !important;
 	font-family: 'vazir';
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }

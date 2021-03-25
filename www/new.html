@@ -5,7 +5,22 @@
 <html>
 	<body>
 		<div class="ui-content" data-role="main">
-			New cost submit page ... 
+			<header data-role="header">
+				<h1>ثبت خرج جدید</h1>
+			</header> 
+			<br>
+			<label for="payer">خرج کننده:</label>
+			<select name="payer">
+				<option value="none" selected disabled>-- یک نفر را انتخاب کنید --</option>
+			</select>
+			<label for="price">مبلغ خرج شده:</label>
+			<input type="number" name="price" placeholder="مثلا ۱۵۰۰۰">
+			<div data-role="controlgroup" id="users">
+				<legend>مصرف کنندگان:</legend>
+			</div>
+			<br>
+			<a class="ui-btn green" id="reg">ثبت</a>
 		</div>
+		<script src="js/new.js"></script>
 	</body>
 </html>
