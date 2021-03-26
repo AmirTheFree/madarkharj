@@ -1,7 +1,6 @@
 // In the name of Allah
 
-var storage = window.localStorage;
-var data = JSON.parse(storage.getItem('data'));
+var data = JSON.parse(window.localStorage.getItem('data'));
 
 for (var key of Object.keys(data)){
     document.querySelector('[name=payer]').innerHTML += '<option value="' + key + '">' + key + '</option>';

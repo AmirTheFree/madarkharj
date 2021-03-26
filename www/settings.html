@@ -5,7 +5,29 @@
 <html>
 	<body>
 		<div class="ui-content" data-role="main">
-			Settings Page ...
+			<header data-role="header">
+				<h1>تنظیمات</h1>
+			</header>
+			<br>
+			<fieldset data-role="controlgroup" data-type="horizontal">
+				<legend>جهت رند کردن:</legend>
+				<input type="radio" name="roundDirection" id="up" value="up">
+				<label for="up">بالا</label>
+				<input type="radio" name="roundDirection" id="down" value="down">
+				<label for="down">پایین</label>
+			</fieldset>
+			<fieldset data-role="controlgroup" data-type="horizontal">
+				<legend>مقدار رند کردن:</legend>
+				<input type="radio" name="roundValue" id="100" value="100">
+				<label for="100">۱۰۰ تومان</label>
+				<input type="radio" name="roundValue" id="500" value="500">
+				<label for="500">۵۰۰ تومان</label>
+				<input type="radio" name="roundValue" id="1000" value="1000">
+				<label for="1000">۱۰۰۰ تومان</label>
+			</fieldset>
+			<br>
+			<a class="ui-btn green" id="savesettings">ذخیره تنظیمات</a>
 		</div>
+		<script src="js/settings.js"></script>
 	</body>
 </html>

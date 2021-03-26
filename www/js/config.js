@@ -2,11 +2,10 @@
 
 $(function(){
     function refreshData(){
-		var storage = window.localStorage;
-		var data = storage.getItem('data');
-		if (data === null || data === "{}"){
+		var data = window.localStorage.getItem('data');
+		if (data == null || data == "{}"){
 			data = '{}';
-			storage.setItem('data',data);
+			window.localStorage.setItem('data',data);
 			$('#data>center').html('<br><br>ابتدا از گزینه ها عضوی به گروه اضافه کنید');
 		} else {
 			$('#data>center').html('<br><br>' + data);
@@ -22,4 +21,10 @@ $(function(){
         refreshData();
     });
     $(document).on('pagecontainerbeforeshow',refreshData);
+
+	var settings = window.localStorage.getItem('settings');
+	if (settings == null) {
+		settings = JSON.stringify({roundDirection: true,roundValue: 100});
+		window.localStorage.setItem('settings',settings);
+	}
 });

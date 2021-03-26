@@ -1,8 +1,7 @@
 // In the name of Allah
 
 $("#addperson").on('tap',function(){
-    var storage = window.localStorage;
-    var data = JSON.parse(storage.getItem('data'));
+    var data = JSON.parse(window.localStorage.getItem('data'));
     var newName = $('[name=name]').val();
     for (var key of Object.keys(data)){
         if (key == newName){
@@ -11,6 +10,6 @@ $("#addperson").on('tap',function(){
         }
     }
     data[newName] = 0
-    storage.setItem('data',JSON.stringify(data));
+    window.localStorage.setItem('data',JSON.stringify(data));
     window.location = 'index.html';
 });
