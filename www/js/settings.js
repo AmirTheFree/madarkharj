@@ -1,11 +1,18 @@
 // In the name of Allah
 
 var settings = JSON.parse(window.localStorage.getItem('settings'));
-(settings.roundDirection) ? document.getElementById('up').setAttribute('selected','selected') : document.getElementById('up').setAttribute('selected','selected');
+(settings.roundDirection) ? $('#up').attr('checked','checked') : $('#down').attr('checked','checked');
 if (settings.roundValue == 100){
-    document.getElementById('100').setAttribute('selected','selected');
+    $('#100').attr('checked','checked');
 } else if (settings.roundValue == 500){
-    document.getElementById('500').setAttribute('selected','selected');
+    $('#500').attr('checked','checked');
 } else if (settings.roundValue == 1000){
-    document.getElementById('1000').setAttribute('selected','selected')
+    $('#1000').attr('checked','checked')
 }
+
+$('#savesettings').on('tap', function(){
+    $('[name=roundDirection]:checked').val() == 'up' ? settings.roundDirection = true : settings.roundDirection = false;
+    settings.roundValue = $('[name=roundValue]:checked').val();
+    window.localStorage.setItem('settings',JSON.stringify(settings));
+    window.location = 'index.html';
+});
