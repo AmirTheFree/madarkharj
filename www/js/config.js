@@ -3,7 +3,7 @@
 $(function(){
     function refreshData(){
 		var data = window.localStorage.getItem('data');
-		if (data == null || data == "{}"){
+		if (data == null || data == "{}" || data == ''){
 			data = '{}';
 			window.localStorage.setItem('data',data);
 			$('#data>center').html('<br><br>ابتدا از گزینه ها عضوی به گروه اضافه کنید');
