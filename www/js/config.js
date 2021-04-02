@@ -8,11 +8,22 @@ $(function(){
 			window.localStorage.setItem('data',data);
 			$('#data>center').html('<br><br>ابتدا از گزینه ها عضوی به گروه اضافه کنید');
 		} else {
-			$('#data>center').html('<br><br>' + data);
-			// data = JSON.parse(data);
-			// for (var key of Object.keys(data)){
-			// 	// key is name & data[key] is money ...
-			// }
+			data = JSON.parse(data);
+			var html = '<ul data-role="listview" data-inset="true">';
+			for (var key of Object.keys(data)){
+				var color = null;
+				if (data[key] > 0){
+					color = 'green';
+				}else if (data[key] == 0){
+					color = 'yellow';
+				}else{
+					color= 'red';
+				}
+				html += '<li class="' + color + '">' + key + '<span class="ui-li-count">' + Math.abs(data[key]) + "</span></li>";
+			}
+			html += '</ul>';
+			$('#data>center').html('<br>' + html);
+			$('ul').listview();
 		}
 	}
     $(document).on('mobileinit', function(){
