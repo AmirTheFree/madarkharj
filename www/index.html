@@ -16,17 +16,19 @@
 		<meta name="viewport" content="width=device-width">
 	</head>
 	<body>
-		<header data-role="header" data-position="fixed">
+		<header data-role="header" data-position="fixed" data-fullscreen="false">
 			<h1>مادر خرج</h1>
-			<a href="#index" class="ui-btn ui-btn-icon-notext ui-icon-home ui-btn-inline ui-shadow head-btn"></a>
-			<a href="menu.html" class="ui-btn ui-btn-icon-notext ui-icon-bars ui-btn-inline ui-shadow head-btn"></a>
+			<a href="#index" class="ui-btn ui-btn-icon-left ui-icon-home ui-btn-inline ui-shadow head-btn">خانه</a>
+			<a href="menu.html" class="ui-btn ui-btn-icon-right ui-icon-bars ui-btn-inline ui-shadow head-btn">گزینه ها</a>
 		</header>
-		<footer data-role="footer" data-position="fixed">
+		<footer data-role="footer" data-position="fixed" data-fullscreen="true">
 			<h1><a href="http://mwxgaf.ir" data-role="none">MWX</a> | 2021</h1>
+			<a id="exit" class="ui-btn ui-btn-icon-left ui-icon-power ui-btn-inline ui-shadow head-btn ui-btn-left fb">خروج</a>
+			<a href="about.html" class="ui-btn ui-btn-icon-right ui-icon-info ui-btn-inline ui-shadow head-btn ui-btn-right fb">درباره</a>
 		</footer>
 		<section id="index" data-role="page">
 			<div class="ui-content" data-role="main">
-				<a class="ui-btn cyan" href="new.html">خرج جدید</a>
+				<a class="ui-btn cyan homebtn" href="new.html">خرج جدید</a>
 				<div id="data">
 					<center>
 					</center>

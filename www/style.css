@@ -16,12 +16,13 @@ html {
 	background-color: #1a1a1a;
 	border-color: #dddddd;
 	color: #f2f2f2;
-	text-shadow: 0 1px 0 #eeeeee;
 	font-weight: bold;
 }
 
 .head-btn {
-	color: #1a1a1a;
+	color:#f2f2f2;
+	border-color: #1a1a1a;
+	border-style: outset;
 }
 
 .green {
@@ -47,6 +48,15 @@ html {
 input , .chcklbl {
 	text-align: right !important;
 	font-family: 'vazir';
+}
+
+.homebtn,#infotable {
+	margin-right: 16px !important;
+	margin-left: 16px !important;
+}
+
+.fb {
+	margin-top: 2px;
 }
 
 /* Chrome, Safari, Edge, Opera */
