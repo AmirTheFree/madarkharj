@@ -25,9 +25,15 @@ $('#reg').on('tap', function () {
         return false;
     }
     var div = Math.round(price / users.length);
-    while (div % settings.roundValue != 0) {
-        settings.roundDirection ? div += 1 : div -= 1;
+    var divFloor = div;
+    var divCiel = div;
+    while (divFloor % settings.roundValue != 0){
+        divFloor -= 1;
     }
+    while (divCiel % settings.roundValue != 0){
+        divCiel += 1;
+    }
+    ((divCiel - div) > (div - divFloor)) ? div = divFloor : div = divCiel;
     price = div * users.length;
     data[payer] += price;
     for (var i = 0;i < users.length;i++){
