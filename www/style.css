@@ -25,6 +25,10 @@ html {
 	border-style: outset;
 }
 
+.warning {
+	color: #ffc107 !important;
+}
+
 .green {
 	background-color: #28a745 !important;
 }
