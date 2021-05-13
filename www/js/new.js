@@ -8,6 +8,10 @@ for (var key of Object.keys(data)) {
     document.getElementById('users').innerHTML += '<input type="checkbox" name="users" id="' + key + '" value="' + key + '">\n<label class="chcklbl" for="' + key + '">' + key + "</label>";
 }
 
+$('[type=checkbox]').on('change',function(){
+    $('#price').blur();
+});
+
 $('#reg').on('tap', function () {
     var payer = $('[name=payer]').val();
     if (!payer) {
