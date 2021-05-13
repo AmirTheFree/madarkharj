@@ -35,7 +35,7 @@ $(function(){
 
 	var settings = window.localStorage.getItem('settings');
 	if (settings == null) {
-		settings = JSON.stringify({roundDirection: true,roundValue: 100});
+		settings = JSON.stringify({roundValue: 100});
 		window.localStorage.setItem('settings',settings);
 	}
 });
