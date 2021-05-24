@@ -54,11 +54,6 @@ input , .chcklbl {
 	font-family: 'vazir';
 }
 
-.homebtn,#infotable {
-	margin-right: 16px !important;
-	margin-left: 16px !important;
-}
-
 .fb {
 	margin-top: 2px;
 }
