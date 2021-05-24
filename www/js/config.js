@@ -3,6 +3,7 @@
 $(function(){
     function refreshData(){
 		var data = window.localStorage.getItem('data');
+		var total = parseInt(window.localStorage.getItem('total'));
 		if (data == null || data == "{}" || data == ''){
 			data = '{}';
 			window.localStorage.setItem('data',data);
@@ -21,8 +22,8 @@ $(function(){
 				}
 				html += '<li class="' + color + '">' + key + '<span class="ui-li-count">' + Math.abs(data[key]) + "</span></li>";
 			}
-			html += '</ul>';
-			$('#data>center').html('<br>' + html);
+			html += '</ul>گردش مالی: ' + total + '<a id="zeroTotal" class="red ui-btn ui-btn-inline" onclick="var sureZeroTotal = confirm(\'آیا از صفر کردن گردش مالی مطمئن هستید؟\');if (sureZeroTotal){window.localStorage.setItem(\'total\',\'0\');window.location = \'index.html\';}">صفر</a>';
+			$('#data>center').html(html);
 			$('ul').listview();
 		}
 	}
@@ -37,5 +38,8 @@ $(function(){
 	if (settings == null) {
 		settings = JSON.stringify({roundValue: 100});
 		window.localStorage.setItem('settings',settings);
+	}
+	if (window.localStorage.getItem('total') == null){
+		window.localStorage.setItem('total','0');
 	}
 });

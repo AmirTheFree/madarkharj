@@ -43,6 +43,7 @@ $('#reg').on('tap', function () {
     for (var i = 0;i < users.length;i++){
         data[users[i].attributes.value.value] -= div;
     }
+    window.localStorage.setItem('total',parseInt(window.localStorage.getItem('total')) + price);
     window.localStorage.setItem('backup',window.localStorage.getItem('data'));
     window.localStorage.setItem('data',JSON.stringify(data));
     window.location = 'index.html';

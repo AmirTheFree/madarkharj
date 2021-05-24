@@ -1,0 +1,14 @@
+== In Progress
+	-> Add Total Backup To new.js
+	-> Add Data Backup To menu.js
+
+== For Publishing
+	-> Version & Logo
+	-> Config.xml
+	-> About
+	-> User Manual
+
+== More
+	-> Dark Theme
+	-> English
+	-> Check Sum
