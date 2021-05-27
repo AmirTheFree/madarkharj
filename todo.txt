@@ -1,5 +1,4 @@
 == In Progressy
-    -> Transition change
 
 == For Publishing
 	-> Version & Logo

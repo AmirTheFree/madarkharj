@@ -28,7 +28,7 @@ $(function(){
 	}
     $(document).on('mobileinit', function(){
         $.mobile.defautlLoadErrorMessage = "متاسفانه خطایی رخ داده است!";
-        $.mobile.defaultPageTransition = "pop";
+        $.mobile.defaultPageTransition = "flow";
         refreshData();
     });
     $(document).on('pagecontainerbeforeshow',refreshData);
