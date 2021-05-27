@@ -1,5 +1,4 @@
-== In Progress
-    -> Make table sort by the money
+== In Progressy
     -> Transition change
 
 == For Publishing

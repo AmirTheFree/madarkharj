@@ -9,8 +9,9 @@ $(function(){
 			$('#data>center').html('<br><br>ابتدا از گزینه ها عضوی به گروه اضافه کنید');
 		} else {
 			data = JSON.parse(data);
+			var sorted = Object.keys(data).sort(function(a,b){return data[b] - data[a]});
 			var html = '<ul data-role="listview" data-inset="true" id="infotable">';
-			for (var key of Object.keys(data)){
+			for (var key of sorted){
 				var color = null;
 				if (data[key] > 0){
 					color = 'green';
