@@ -21,7 +21,7 @@ $(function(){
 				}
 				html += '<li class="' + color + '">' + key + '<span class="ui-li-count">' + Math.abs(data[key]) + "</span></li>";
 			}
-			$('#data>center').html(html);
+			$('#data>center').html('<br>' + html);
 			$('ul').listview();
 		}
 	}

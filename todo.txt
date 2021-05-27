@@ -1,7 +1,4 @@
 == In Progress
-	-> Make table RTL
-	-> Check Sum
-    -> Increase Table Margin Left Right and Insert br on top + may be other page Margins
     -> Make table sort by the money
     -> Transition change
 

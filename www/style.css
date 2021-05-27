@@ -62,6 +62,23 @@ input , .chcklbl {
 	border-width: 0px;
 }
 
+.ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
+	text-align: right !important;
+}
+
+.ui-li-count {
+	left: .8em;
+	right: auto;
+}
+
+.ui-listview > .ui-li-has-count > .ui-btn, .ui-listview > .ui-li-static.ui-li-has-count, .ui-listview > .ui-li-divider.ui-li-has-count {
+	padding-right: none;
+}
+
+.ui-content {
+	padding: 1.2em;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
