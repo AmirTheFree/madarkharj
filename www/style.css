@@ -62,14 +62,6 @@ input , .chcklbl {
 	border-width: 0px;
 }
 
-#zeroTotal {
-	padding-left: 7px;
-	padding-right: 7px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border-radius: 10px;
-}
-
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

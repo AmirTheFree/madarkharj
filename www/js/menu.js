@@ -12,6 +12,7 @@ function zeroValues() {
 $('#zero').on('tap', function () {
 	var sureZero = confirm('آیا از صفر کردن هزینه ها مطمئن هستید؟!');
 	if (sureZero) {
+		window.localStorage.setItem('backup',window.localStorage.getItem('data'));
 		zeroValues();
 	}
 });

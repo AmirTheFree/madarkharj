@@ -1,6 +1,9 @@
 == In Progress
-	-> Add Total Backup To new.js
-	-> Add Data Backup To menu.js
+	-> Make table RTL
+	-> Check Sum
+    -> Increase Table Margin Left Right and Insert br on top + may be other page Margins
+    -> Make table sort by the money
+    -> Transition change
 
 == For Publishing
 	-> Version & Logo
@@ -11,4 +14,3 @@
 == More
 	-> Dark Theme
 	-> English
-	-> Check Sum
