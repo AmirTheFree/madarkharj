@@ -26,7 +26,15 @@ html {
 }
 
 .warning {
-	color: #dc3545 !important;
+	color: red !important;
+}
+
+.primary {
+	color: magenta !important;
+}
+
+.success {
+	color: green !important;
 }
 
 .green {
@@ -97,4 +105,14 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	transform: translateY(10px);
+}
+
+.about {
+	line-height: 2em;
 }

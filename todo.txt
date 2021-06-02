@@ -1,10 +1,10 @@
-== In Progressy
+== In Progress
 
 == For Publishing
-	-> Version & Logo
+	-> Version
 	-> Config.xml
-	-> About
-	-> User Manual
+	-> Blog Link
+	-> README
 
 == More
 	-> Dark Theme
