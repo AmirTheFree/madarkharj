@@ -4,4 +4,4 @@
 
 ### A mobile application for justly calculation of group expends
 
-Development in progress ...!
+Coming soon ...

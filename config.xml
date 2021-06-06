@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ir.mwx.madarkharj" version="0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>MadarKharj</name>
+<widget id="ir.mwx.madarkharj" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>مادرخرج</name>
     <description>
         A mobile application for justly calculation of group expends
     </description>
