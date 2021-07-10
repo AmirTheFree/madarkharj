@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## مادرخرج
 
-You can use the [editor on GitHub](https://github.com/mwxgaf/madarkharj/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### یک اپلیکیشن موبایل برای محاسبه راحت و دقیق خرج های گروهی
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+وقتی با دوستاتون میرید بیرون یه چیزی میخورید و یه نفر همه رو حساب میکنه به اون میگن مادرخرج.اما از اون جایی که تموم شد اون دوران ها این مادرخرج یک اپلیکیشن موبایل برای محاسبه دقیق و راحت خرج های گروهی هستش و در واقع با این هدف ساخته شده که از مادرخرج شدن افراد جلوگیری کنه! اینجوری کار میکنه که اول اعضای گروهتون رو بهش اضافه میکنید بعدش برای هر خرج؛ خرج کننده، مبلغ خرج شده و اون کسایی از گروهتون که از مبلغ خرج شده استفاده کردن رو مشخص میکنید و بقیه کار رو خود برنامه انجام میده! (توضیحات بیشتر تو راهنمای داخل برنامه هستش)
 
-### Markdown
+تصاویر:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![madarkharj](https://camo.githubusercontent.com/4ef8e2c5134044f941e0180b5455a8ac41549947b4a2c91b95a782a50fc595a6/68747470733a2f2f626179616e626f782e69722f766965772f343639393234393934383534363839343836332f686f6d652d6d696e692e6a7067)
+ ![madarkharj](https://camo.githubusercontent.com/7787e8c001b0af40d7a07f2e4cee47b022f5c5c9775478c2ec573828a79dc9b4/68747470733a2f2f626179616e626f782e69722f766965772f383732313735383131323731373337383434322f6e65772d6d696e692e6a7067)
 
-```markdown
-Syntax highlighted code block
+ویژگی ها:
 
-# Header 1
-## Header 2
-### Header 3
+- رند کردن خودکار به مقدار دلخواه شما
+ 
+- داشتن قابلیت واگرد (Undo)
 
-- Bulleted
-- List
+- بسیار سبک و کم حجم
 
-1. Numbered
-2. List
+- رابط کاربری نسبتا زیبا
 
-**Bold** and _Italic_ and `Code` text
+- بدون هیچگونه تبلیغات - کاملا رایگان و متن باز
 
-[Link](url) and ![Image](src)
-```
+[دانلود](https://bayanbox.ir/download/6643491527756062358/MadarKharj.apk) برای اندروید
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+حجم: ۱.۲۸ مگابایت
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mwxgaf/madarkharj/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+نسخه وب: جهت ورود [اینجا](http://mk.mwxg.ir) را کلیک کنید
