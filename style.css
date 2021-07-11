@@ -1,0 +1,14 @@
+/* In the name of Allah */
+
+@font-face {
+	font-family: 'Lalezar';
+	src:  url('Lalezar.ttf');
+}
+
+body {
+	font-family: 'Lalezar' !important;
+}
+
+.image {
+	max-width: 130px;
+}
