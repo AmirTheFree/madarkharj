@@ -12,3 +12,7 @@ body {
 .image {
 	max-width: 130px;
 }
+
+a {
+	text-decoration: none;
+}
