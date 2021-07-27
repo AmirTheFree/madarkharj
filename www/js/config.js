@@ -38,4 +38,9 @@ $(function(){
 		settings = JSON.stringify({roundValue: 100});
 		window.localStorage.setItem('settings',settings);
 	}
+	var total = window.localStorage.getItem('total');
+	if (total == null) {
+		total = 0;
+		window.localStorage.setItem('total',total);
+	}
 });

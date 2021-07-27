@@ -57,6 +57,10 @@ html {
 	background-color: #17a2b8 !important;
 }
 
+.brown {
+	background-color: #b35900 !important;
+}
+
 input , .chcklbl {
 	text-align: right !important;
 	font-family: 'vazir';
