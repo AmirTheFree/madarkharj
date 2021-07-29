@@ -37,6 +37,10 @@ html {
 	color: green !important;
 }
 
+.info {
+	color: #007bff;
+}
+
 .green {
 	background-color: #28a745 !important;
 }
@@ -123,4 +127,9 @@ input[type=number] {
 
 #clear {
 	display: inline-block;
+}
+
+.ui-body {
+	margin-bottom: 10px !important;
+	line-height: 25px !important;
 }

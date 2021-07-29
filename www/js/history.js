@@ -6,13 +6,13 @@ $('#clear').on('tap', function () {
     if (sure) {
         window.localStorage.setItem('total', 0);
         window.localStorage.setItem('historia', JSON.stringify([]));
+        window.location = 'index.html';
     }
 });
 var historia = window.localStorage.getItem('historia');
 if ((historia == null) || (historia == '') || (historia == '[]')) {
     document.getElementById('container').innerText = 'هیچ سابقه ای موجود نیست';
 } else {
-    console.log(historia);
     historia = JSON.parse(historia);
     historia.forEach(element => {
         document.getElementById('container').innerHTML += '<div class="ui-body ui-body-a ui-corner-all">' + element + '</div>'

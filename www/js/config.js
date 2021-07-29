@@ -43,4 +43,9 @@ $(function(){
 		total = 0;
 		window.localStorage.setItem('total',total);
 	}
+	var historia = window.localStorage.getItem('historia');
+	if (historia == null || historia == '') {
+		historia = '[]';
+		window.localStorage.setItem('historia',historia);
+	}
 });

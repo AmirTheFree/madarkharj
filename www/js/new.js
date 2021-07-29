@@ -38,11 +38,18 @@ $('#reg').on('tap', function () {
         divCiel += 1;
     }
     ((divCiel - div) > (div - divFloor)) ? div = divFloor : div = divCiel;
+    var originalPrice = price;
     price = div * users.length;
     data[payer] += price;
+    var usersString = '';
     for (var i = 0;i < users.length;i++){
         data[users[i].attributes.value.value] -= div;
+        usersString += users[i].attributes.value.value + ', ';
     }
+    var historia = JSON.parse(window.localStorage.getItem('historia'));
+    var date = new persianDate();
+    historia.unshift('در تاریخ <b class="info">' + date.format('dddd YYYY/MM/DD') + '</b> ساعت <b class="info">' + date.format('HH:mm') + '</b> <b class="primary">' + payer + '</b> برای <b class="primary">' + usersString + '</b> مبلغ <b class="success">' + price + '(' + originalPrice + ')' + ' </b> خرج کرد و دنگ هر نفر شد <b class="success">' + div + '</b>.');
+    window.localStorage.setItem('historia',JSON.stringify(historia));
     window.localStorage.setItem('total',parseInt(window.localStorage.getItem('total')) + price);
     window.localStorage.setItem('backup',window.localStorage.getItem('data'));
     window.localStorage.setItem('data',JSON.stringify(data));
