@@ -17,6 +17,7 @@
 	* Jquery
 	* JqueryMobile
 	* JSON
+	* PersianDate
 * CSS
 	* JqueryMobile
 * HTML
