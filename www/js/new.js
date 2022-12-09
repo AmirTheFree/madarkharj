@@ -28,6 +28,10 @@ $('#reg').on('tap', function () {
         alert('لطفا مصرف کنندگان را انتخاب کنید');
         return false;
     }
+    var reason = $('[name=reason]').val();
+    if (!reason) {
+        reason = '?';
+    }
     var div = Math.round(price / users.length);
     var divFloor = div;
     var divCiel = div;
@@ -48,7 +52,7 @@ $('#reg').on('tap', function () {
     }
     var historia = JSON.parse(window.localStorage.getItem('historia'));
     var date = new persianDate();
-    historia.unshift('در تاریخ <b class="info">' + date.format('dddd YYYY/MM/DD') + '</b> ساعت <b class="info">' + date.format('HH:mm') + '</b> <b class="primary">' + payer + '</b> برای <b class="primary">' + usersString + '</b> مبلغ <b class="success">' + price + '(' + originalPrice + ')' + ' </b> خرج کرد و دنگ هر نفر شد <b class="success">' + div + '</b>.');
+    historia.unshift('در تاریخ <b class="info">' + date.format('dddd YYYY/MM/DD') + '</b> ساعت <b class="info">' + date.format('HH:mm') + '</b> <b class="primary">' + payer + '</b> برای <b class="primary">' + usersString + '</b> مبلغ <b class="success">' + price + '(' + originalPrice + ')' + ' </b> به خاطر <b>' + reason + '</b> خرج کرد و دنگ هر نفر شد <b class="success">' + div + '</b>.');
     window.localStorage.setItem('historia',JSON.stringify(historia));
     window.localStorage.setItem('total',parseInt(window.localStorage.getItem('total')) + price);
     window.localStorage.setItem('backup',window.localStorage.getItem('data'));
