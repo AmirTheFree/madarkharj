@@ -1,8 +1,8 @@
 {
-  "name": "io.cordova.hellocordova",
-  "displayName": "HelloCordova",
-  "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "name": "ir.mwxgaf.madarkharj",
+  "displayName": "MadarKharj",
+  "version": "1.2",
+  "description": "A very light-weight mobile application for justly calculation of group expends.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
