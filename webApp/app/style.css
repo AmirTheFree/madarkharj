@@ -1,0 +1,135 @@
+/* In the name of Allah */
+
+@font-face {
+	font-family: 'vazir';
+	src: url('lib/Vazir.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	font-family: 'vazir';
+	direction: rtl;
+}
+
+.ui-header , .ui-footer {
+	background-color: #1a1a1a;
+	border-color: #dddddd;
+	color: #f2f2f2;
+	font-weight: bold;
+}
+
+.head-btn {
+	color:#f2f2f2;
+	border-color: #1a1a1a;
+	border-style: outset;
+}
+
+.warning {
+	color: red !important;
+}
+
+.primary {
+	color: magenta !important;
+}
+
+.success {
+	color: green !important;
+}
+
+.info {
+	color: #007bff;
+}
+
+.green {
+	background-color: #28a745 !important;
+}
+
+.red {
+	background-color: #dc3545 !important;
+}
+
+.yellow {
+	background-color: #ffc107 !important;
+}
+
+.blue {
+	background-color: #007bff !important;
+}
+
+.cyan {
+	background-color: #17a2b8 !important;
+}
+
+.brown {
+	background-color: #b35900 !important;
+}
+
+input , .chcklbl {
+	text-align: right !important;
+	font-family: 'vazir';
+}
+
+.fb {
+	margin-top: 2px;
+}
+
+.borderless {
+	border-width: 0px;
+}
+
+.ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
+	text-align: right !important;
+}
+
+.ui-li-count {
+	left: .8em !important;
+	right: auto !important;
+}
+
+.ui-listview > .ui-li-has-count > .ui-btn, .ui-listview > .ui-li-static.ui-li-has-count, .ui-listview > .ui-li-divider.ui-li-has-count {
+	padding-right: 1em !important;
+}
+
+.ui-content {
+	padding: 1.2em !important;
+}
+
+.ui-collapsible-heading .ui-btn {
+	text-align: right !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.text {
+	text-align: justify;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	transform: translateY(10px);
+}
+
+.about {
+	line-height: 2em;
+}
+
+#clear {
+	display: inline-block;
+}
+
+.ui-body {
+	margin-bottom: 10px !important;
+	line-height: 25px !important;
+}

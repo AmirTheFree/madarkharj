@@ -1,0 +1,31 @@
+<!-- In the name of Allah -->
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+	<div class="ui-content" data-role="main">
+		<header data-role="header">
+			<h1>افزودن/حذف عضو</h1>
+		</header>
+		<br>
+		<label for="name">افزودن عضو جدید:</label>
+		<input type="text" name="name" placeholder="نام عضو جدید ...">
+		<br>
+		<a class="ui-btn green" id="addperson">افزودن</a>
+		<br>
+		<hr>
+		<br>
+		<span class="warning">اخطار: با حذف عضوی که بدهکاری یا بستانکاری داشته باشد جمع مبالغ به هم خواهد خورد لطفا آگاه و مطمئن باشید که چه میکنید!</span>
+		<label for="name2">حذف عضو موجود:</label>
+		<select name="name2">
+			<option value="none" selected disabled>-- یک عضو را انتخاب کنید --</option>
+		</select>
+		<br>
+		<a class="ui-btn red" id="deleteperson">حذف</a>
+	</div>
+	<script src="js/person.js"></script>
+</body>
+
+</html>
