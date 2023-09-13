@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ir.mwx.madarkharj" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="ir.mwx.madarkharj" version="1.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>مادرخرج</name>
     <description>
         A mobile application for justly calculation of group expends
     </description>
     <icon src="icon.png"/>
-    <author email="mwxgaf@yahoo.com" href="http://mwxgaf.ir">
-        MWX - Amirreza Aliakbari
+    <author email="mwxgaf@yahoo.com" href="https://mwxgaf.ir">
+        Amirreza Aliakbari
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -24,6 +24,4 @@
         <allow-intent href="itms-apps:*" />
       </platform>
       <preference name="android-minSdkVersion" value="16"/>
-      <preference name="android-targetSdkVersion" value="29" />
-      <preference name="android-compileSdkVersion" value="29" />
 </widget>

@@ -1,7 +1,7 @@
 {
   "name": "ir.mwxgaf.madarkharj",
   "displayName": "MadarKharj",
-  "version": "1.2",
+  "version": "1.2.1",
   "description": "A very light-weight mobile application for justly calculation of group expends.",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
-  "license": "Apache-2.0",
+  "author": "Amirreza Aliakbari (mwxgaf.ir)",
+  "license": "MPL-2.0",
   "devDependencies": {
     "cordova-android": "^10.0.0",
     "cordova-browser": "^6.0.0",

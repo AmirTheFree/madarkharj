@@ -4,9 +4,7 @@
 
 ### A mobile application for justly calculation of group expends
 
-![downloads](https://img.shields.io/github/downloads/mwxgaf/madarkharj/total?color=blue&label=Downloads&logo=android)
-
-### 📲 [Download APK + Description](https://mwxgaf.github.io/madarkharj)
+### 📲 [Download + Description + Web Version](https://mwxgaf.github.io/madarkharj)
 
 ***Used tools:***
 
