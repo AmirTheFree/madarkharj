@@ -16,3 +16,9 @@ body {
 a {
 	text-decoration: none;
 }
+
+#myket {
+  width: 150px;
+  height:45px;
+  margin-top: -17px;
+}
